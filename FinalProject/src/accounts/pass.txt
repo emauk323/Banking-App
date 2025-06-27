@@ -1,0 +1,14 @@
+accountID 542198647232
+checkingID 809631407000
+savingsID 484578382064
+Date: 11/28/2022,20:16 
+FirstName Ethan
+LastName Pass
+checking: true
+savings: true
+transaction checking 11/28/2022,20:16 Account,Created 0.0
+transaction checking 11/28/2022,20:16 Account,Created 0.0
+transaction savings 11/28/2022,20:16 Account,Created 0.0
+transaction savings 11/28/2022,20:16 Account,Created 0.0
+transaction checking 11/28/2022,20:16 Salary 500.00
+transaction checking 11/28/2022,20:17 Payment,to,Santa -227.53
