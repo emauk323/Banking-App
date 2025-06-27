@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import application.CustomPasswordField?>
+<?import application.CustomSceneButton?>
+<?import application.CustomTextField?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Rectangle fx:id="rectangle" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="403.0" layoutX="-7.0" layoutY="-7.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="408.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="342.0" layoutX="65.0" layoutY="154.0" stroke="#d9d9d9" strokeType="INSIDE" width="279.0" />
+      <Label layoutX="93.0" layoutY="166.0" text="Username:" textFill="#919191">
+         <font>
+            <Font size="11.0" />
+         </font></Label>
+      <CustomTextField fx:id="usernameFieldCreate" layoutX="93.0" layoutY="181.0" onKeyTyped="#checkEmptyCreate" prefHeight="30.0" prefWidth="222.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CustomTextField>
+      <CustomPasswordField fx:id="passwordFieldCreate" layoutX="93.0" layoutY="231.0" onKeyTyped="#checkEmptyCreate" prefHeight="30.0" prefWidth="222.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CustomPasswordField>
+      <CustomTextField fx:id="firstFieldCreate" layoutX="93.0" layoutY="281.0" onKeyTyped="#checkEmptyCreate" prefHeight="30.0" prefWidth="222.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CustomTextField>
+      <CustomTextField fx:id="lastFieldCreate" layoutX="94.0" layoutY="331.0" onKeyTyped="#checkEmptyCreate" prefHeight="30.0" prefWidth="221.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CustomTextField>
+      <CheckBox fx:id="myCheckbox" layoutX="84.0" layoutY="382.0" mnemonicParsing="false" onAction="#checkEmptyCreate" text="Checking Account" />
+      <CheckBox fx:id="myCheckbox2" layoutX="216.0" layoutY="382.0" mnemonicParsing="false" onAction="#checkEmptyCreate" text="Savings Account" />
+      <Label layoutX="93.0" layoutY="216.0" text="Password:" textFill="#848484">
+         <font>
+            <Font name="Century Gothic" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="266.0" text="First Name:" textFill="#818181">
+         <font>
+            <Font size="11.0" />
+         </font></Label>
+      <Label layoutX="93.0" layoutY="316.0" text="Last Name:" textFill="#7e7e7e">
+         <font>
+            <Font size="11.0" />
+         </font></Label>
+      <CustomSceneButton fx:id="myButton" disable="true" layoutX="111.0" layoutY="421.0" onAction="#createAccount" prefHeight="31.0" prefWidth="187.0" text="Create Account" />
+      <CustomSceneButton fx:id="labelAccent" layoutX="183.0" layoutY="464.0" onAction="#switchScene" sceneName="SignIn" text="Back" />
+      <ImageView fitHeight="153.0" fitWidth="153.0" layoutX="130.0" layoutY="-21.0">
+         <image>
+            <Image url="@../../../../Desktop/download%20(1).png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

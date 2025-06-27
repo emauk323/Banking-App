@@ -1,0 +1,14 @@
+accountID 730185806189
+checkingID 868844075448
+savingsID 705186588616
+Date: 11/28/2022,20:17 
+FirstName John
+LastName Doe
+checking: true
+savings: true
+transaction checking 11/28/2022,20:17 Account,Created 0.0
+transaction checking 11/28/2022,20:17 Account,Created 0.0
+transaction savings 11/28/2022,20:17 Account,Created 0.0
+transaction savings 11/28/2022,20:17 Account,Created 0.0
+transaction checking 11/28/2022,20:18 Salary 750.00
+transaction checking 11/28/2022,20:19 Payment,to,Santa -227.85
